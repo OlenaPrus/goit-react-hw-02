@@ -42,7 +42,7 @@ export default function App() {
       ...prevRate,
       [option]: prevRate[option] + 1,
     }));
-  }
+  }  
   function handleReset() {
     setFeedbackCounts(initState);
   }
